@@ -1,0 +1,23 @@
+.product-card {
+    position: relative;
+
+  }
+  
+  .actions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .product-card:hover .actions {
+    opacity: 1;
+  }
+  .card{
+    display: flex;
+
+  }

@@ -1,0 +1,32 @@
+
+.sidebar {
+  background-color: #F2EAE1;
+  padding: 20px;
+  
+}
+
+.sidebar-header {
+ 
+  padding-bottom: 20px;
+}
+
+.sidebar-button {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sidebar-button.orange {
+  background-color: orange;
+  color: white;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
